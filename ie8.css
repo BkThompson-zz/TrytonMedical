@@ -1,0 +1,34 @@
+/* ie8 css */
+
+/* HQSITES-5322 */
+
+html.js fieldset.collapsible {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.bw-facebook-post-picture a {
+
+color: #fff!important;
+
+
+}
+
+
+.page-social-media .pane-youtube-video-bar a {
+
+color: #fff!important;
+
+}
+
+
+.page-rss .bw-rss{
+
+
+color: #fff!important;
+
+}

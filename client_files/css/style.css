@@ -1,0 +1,1387 @@
+/*
+Theme Name: TRYTON Medical
+Theme URI: http://trytonmedical.com/
+Description: 
+Author: Tryton
+Version: 1.0
+Tags: 
+*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height:1.5em;
+	color: #666666;	
+	background: #5a1f31 url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/bg.gif") top center repeat-y;
+}
+table,tr,td {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height:1.5em;
+	color: #666666;	
+}
+input, button, textarea, form, div, p, table, td, span {
+	font-family: Arial, sans-serif;
+}
+
+a {
+	color: #72273e;
+	text-decoration: underline;
+}
+a:hover {  
+	color: #6f97ac;
+	text-decoration: underline;
+}
+.clear {
+	display: block;
+	clear: both;
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+	line-height: 0px;
+	overflow: hidden;
+}
+.nulled {	
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+
+form {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+input, textarea, select {
+	color: #888888;
+	font-size: 14px;
+}
+input, textarea, select {
+	border: 1px solid #c7d6de;
+	background-color: #ffffff;
+}
+input.disabled, textarea.disabled, select.disabled {
+	border: 1px solid #afafaf;
+	background-color: #eeeeee;
+}
+input.error, textarea.error, select.error {
+	border: 1px solid #ff6666;
+	background-color: #fee1d8;
+}
+input:checkbox {
+	border-width: 0px;
+}
+input[type=text] {
+	padding: 2px;
+}
+input[type=submit] {
+	padding: 4px 15px 4px 15px;
+	border: 1px solid #521a2b;
+	background-color: #5a1f31;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.c {
+	position: absolute;	
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+.c.lt {
+	left: 0;
+	top: 0;
+}
+.c.rt {
+	right: 0;
+	top: 0;
+}
+.c.rb {
+	right: 0;
+	bottom: 0;
+}
+.c.lb {
+	left: 0;
+	bottom: 0;
+}
+.s {
+	position: absolute;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+.s.t {
+	top: 0;
+}
+.s.r {
+	right: 0;
+}
+.s.b {
+	bottom: 0;
+}
+.s.l {
+	left: 0;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: normal;
+}
+h2 {
+	font-size: 18px;
+	font-weight: normal;
+}
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+}
+h4 {
+	font-size: 14px;
+	font-weight: normal;
+}
+h5 {
+	font-size: 12px;
+	font-weight: normal;
+}
+h6 {
+	font-size: 10px;
+	font-weight: normal;
+}
+h1.title {	
+	display: none;
+	margin-top: 0;
+	text-align: right;
+}
+.maroon {
+    color: #72273e;
+}
+
+
+.wrapper {
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/bg-container.gif") center top repeat-y;
+}
+.container {
+	position: relative;
+	z-index: 1;
+	width: 990px;
+	margin: 0 auto;
+	padding: 0;
+	background: #ffffff;
+	text-align: left;	
+}
+.container-spacer-home {
+	height: 170px;
+}
+.container-spacer-interior {
+	height: 237px;
+}
+
+.header {
+	position: relative;
+	height: 100px;
+	background: #f4f4f4 url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/bg-header.gif") repeat-x;
+}
+.header .logo {
+	float: left;
+	display: block;
+	width: 194px;
+	height: 83px;
+	margin: 5px 0 0 30px;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/logo.png") no-repeat;
+}
+.header .header-right {
+	float: right;
+}
+.header .header-right .top-bar {
+	float: right;
+}
+.header .header-right .top-bar .top-bar-locale {
+	float: left;
+	height: 26px;
+	border: 1px solid #e4e4e4;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-left-radius: 3px; 
+	-webkit-border-bottom-right-radius: 3px;	
+}
+.header .header-right .top-bar .top-bar-locale .top-bar-locale-flag {
+	float: left;
+	display: block;
+	width: 36px;
+	height: 26px;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/topbar-locale-flag.gif") 0 0 no-repeat;
+	border-right: 1px solid #e4e4e4;
+}
+.header .header-right .top-bar .top-bar-locale .top-bar-locale-flag:hover {
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/topbar-locale-flag.gif") 0 -26px no-repeat;
+}
+.header .header-right .top-bar .top-bar-locale .top-bar-locale-flag-2 {
+	float: left;
+	display: block;
+	width: 36px;
+	height: 26px;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/topbar-locale-flag-2.gif") 0 0 no-repeat;
+	border-right: 1px solid #e4e4e4;
+}
+.header .header-right .top-bar .top-bar-locale .top-bar-locale-flag-2:hover {
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/topbar-locale-flag-2.gif") 0 -26px no-repeat;
+}
+.header .header-right .top-bar .top-bar-locale .top-bar-locale-flag-3 {
+    float: left;
+    display: block;
+    width: 36px;
+    height: 26px;
+    background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/topbar-locale-flag-3.gif") 0 0 no-repeat;
+    border-right: 1px solid #e4e4e4;
+}
+.header .header-right .top-bar .top-bar-locale .top-bar-locale-flag-3:hover {
+    background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/topbar-locale-flag-3.gif") 0 -26px no-repeat;
+}
+.header .header-right .top-bar .top-bar-locale .top-bar-locale-zone {
+	float: left;
+	display: block;
+	width: 156px;
+	height: 26px;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/topbar-locale-zone.gif") 0 0 no-repeat;
+}
+.header .header-right .top-bar .top-bar-locale .top-bar-locale-zone:hover {
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/topbar-locale-zone.gif") 0 -26px no-repeat;
+}
+
+.header .header-right .top-bar .top-bar-menu {
+	float: left;
+	height: 25px;
+	margin: 0 3px 0 8px;
+	padding: 0 8px 0 8px;
+	background: #72273e;
+	border: 1px solid #72273e;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-left-radius: 3px; 
+	-webkit-border-bottom-right-radius: 3px;	
+}
+
+.header .header-right .top-bar .top-bar-menu ul {
+	display: block;
+	margin: 0; 
+	padding: 0;
+	list-style-type: none; 
+	list-style-position: outside;		
+}
+.header .header-right .top-bar .top-bar-menu ul li {
+	float: left;	
+	padding: 4px 9px 5px 9px;
+	margin: 0;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/topbar-menu-sep.gif") left center no-repeat;
+	line-height: 1em;	
+}
+.header .header-right .top-bar .top-bar-menu ul li:first-child {
+	background: none;
+}
+.header .header-right .top-bar .top-bar-menu ul li a {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;	
+	line-height: 1em;	
+}
+.header .header-right .top-bar .top-bar-menu ul li a:hover {
+	color: #dbc3cb;
+	text-decoration: underline;	
+}
+.header .header-right .top-bar .top-bar-menu ul li.current-menu-item a {	
+	color: #b9939f;
+	text-decoration: underline;
+}
+.header .header-right .top-bar .top-bar-menu ul li.current-menu-item a:hover {	
+	color: #dbc3cb;
+	text-decoration: underline;
+}
+
+
+
+
+.mainmenu {
+	float: right;
+	height: 35px;
+	margin: 0px 3px 0 0;
+    padding: 0 5px 0 5px;
+	background: #f8f8f8;
+	border: 1px solid #eaeaea;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+.mm {
+	position: relative;
+	display: block;
+    float: left;
+	height: 35px;
+	margin: 0;
+    padding: 0;
+	list-style-type: none; 
+	list-style-position: outside;	
+}
+.mm ul {
+	position: absolute; 
+	z-index: 100;
+	display: none; 
+	width: 200px; 
+	top: 35px; 
+	left: 0px;
+	margin: 0; 
+	padding: 0;
+	background: #752b42;	
+	list-style-type: none; 
+	list-style-position: outside;	
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-bottom-left-radius: 6px; 
+	-webkit-border-bottom-right-radius: 6px;	
+}
+.mm ul ul {
+	top: 0px;
+	left: 200px;
+	background: #80394f;
+}
+.mm ul ul ul {
+	background: #8f465c;
+}
+.mm > li {	
+	position: relative;
+	float: left;
+	height: 35px;
+	padding: 0;
+	margin: 0;
+	border-left: 1px solid #eaeaea;
+}
+#mainmenu > li:first-child {
+	border-left: none;
+}
+.mm > li > a {
+	display: block;	
+	margin: 0;
+	padding: 11px 12px 10px 12px;
+	overflow: hidden;
+	color: #72273e;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+.mm > li > a:hover {
+	color: #ffffff;	
+	text-decoration: none;
+}
+.mm > li.current-menu-item, .mm > li.current-menu-ancestor {
+	
+}
+.mm > li.current-menu-item > a, .mm > li.current-menu-ancestor > a {
+	color: #b58f9b;
+	font-weight: normal;
+}
+.mm > li.hovered {
+	background: #752b42;	
+}
+.mm > li.hovered > a {
+	color: #ffffff;	
+}
+.mm ul li {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.mm ul li a {
+	display: block;
+	margin: 0;
+	padding: 8px 12px 8px 12px;	
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+.mm ul li.current-menu-item a, .mm ul li.current-menu-ancestor a {
+	background: #5a1f31;
+	color: #ffffff;
+	text-decoration: none;
+}
+.mm ul li a:hover {
+	background: #5a1f31;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.mm li:hover ul ul, .mm li:hover ul ul ul, .mm li:hover ul ul ul ul {
+	display: none;
+} 
+.mm li:hover ul, .mm li li:hover ul, .mm li li li:hover ul, .mm li li li li:hover ul {
+	display: block;
+}
+
+
+.submenu {
+	position: relative;	
+}
+.submenu ul {
+	display: none;
+	margin: 0; 
+	padding: 0;
+	list-style-type: none; 
+	list-style-position: outside;		
+}
+.submenu ul li {
+	display: none;
+	margin: 0;
+	padding: 0;	
+}
+
+.submenu > ul {
+	display: block;
+}
+.submenu > ul > li.current-menu-item, .submenu > ul > li.current-menu-ancestor {
+	display: block;
+}
+.submenu > ul > li.current-menu-item > a, .submenu > ul > li.current-menu-ancestor > a {
+	display: none;
+}
+.submenu > ul > li.current-menu-item > ul, .submenu > ul > li.current-menu-ancestor > ul {
+	display: block;
+	height: 45px;
+	width: 990px;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/submenu-bg.gif") repeat-x;
+}
+.submenu > ul > li.current-menu-item > ul > li, .submenu > ul > li.current-menu-ancestor > ul > li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 14px 20px 0 25px;
+	line-height: 1em;
+}
+.submenu > ul > li.current-menu-item > ul > li > a, .submenu > ul > li.current-menu-ancestor > ul > li > a {
+	color: #666666;
+	font-size: 15px;
+	font-weight: normal;
+	text-decoration: none;	
+	line-height: 1em;	
+}
+.submenu > ul > li.current-menu-item > ul > li > a:hover, .submenu > ul > li.current-menu-ancestor > ul > li > a:hover {
+	color: #72273e;
+	text-decoration: none;	
+}
+.submenu > ul > li > ul > li.current-menu-item > a, .submenu > ul > li > ul > li.current-menu-ancestor > a {	
+	color: #72273e;
+	font-weight: bold;
+	text-decoration: none;
+}
+.submenu > ul > li.current-menu-item > ul > li.current-menu-item > a:hover, .submenu > ul > li.current-menu-ancestor > ul > li.current-menu-item > a:hover {	
+	color: #72273e;
+	text-decoration: none;
+}
+
+.subsubmenu {
+    position: relative;
+}
+.subsubmenu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+}
+.subsubmenu ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.subsubmenu > ul > li > a {
+    display: block;
+    margin: 0 0 15px 0;
+    padding: 7px 20px 7px 20px;
+    background: #6f97ac;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1em;
+    text-decoration: none;
+    text-align: right;
+}
+.subsubmenu > ul > li > a:hover {
+    color: #f1f5f7;
+    text-decoration: none;
+}
+.subsubmenu ul li ul li {
+    padding: 0 20px 15px 20px;
+    text-align: right;
+}
+.subsubmenu ul li ul li a {
+    color: #666666;
+    font-size: 15px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.subsubmenu ul li ul li a:hover {
+    color: #72273e;
+    text-decoration: none;
+}
+
+.subsubmenu ul li.maroon-bg {
+    background: #72273e;
+}
+.subsubmenu ul li.maroon-bg a {
+    color: #ffffff;
+}
+.subsubmenu ul li.maroon-bg a:hover {
+    color: #eeeeee;
+}
+
+.subsubmenu > ul > li > ul > li.current-menu-item a {
+    color: #72273e;
+    font-weight: bold;
+}
+/*
+.subsubmenu {
+	position: relative;	
+}
+.subsubmenu ul {
+	display: none;
+	margin: 0; 
+	padding: 0;
+	list-style-type: none; 
+	list-style-position: outside;		
+}
+.subsubmenu ul li {
+	display: none;
+	margin: 0;
+	padding: 0;	
+}
+
+.subsubmenu > ul {
+	display: block;
+}
+.subsubmenu li.current-menu-item, .subsubmenu li.current-menu-ancestor {
+	display: block;
+}
+.subsubmenu li.current-menu-item > ul, .subsubmenu li.current-menu-ancestor > ul {
+	display: block;
+}
+.subsubmenu > ul > li > ul > li.current-menu-item > ul > li, .subsubmenu > ul > li.current-menu-ancestor > ul > li.current-menu-ancestor > ul > li {
+	display: block;
+}
+.subsubmenu > ul > li > a {
+	display: none;
+}
+.subsubmenu > ul > li > ul > li.current-menu-item > a, .subsubmenu > ul > li.current-menu-ancestor > ul > li.current-menu-ancestor > a {
+	display: block;
+	margin: 0 0 15px 0;
+	padding: 7px 20px 7px 20px;
+	background: #6f97ac;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 1em;
+	text-decoration: none;
+	text-align: right;
+}
+.subsubmenu > ul > li > ul > li.current-menu-item > a:hover, .subsubmenu > ul > li.current-menu-ancestor > ul > li.current-menu-ancestor > a:hover {
+	color: #f1f5f7;
+	text-decoration: none;
+}
+.subsubmenu ul li ul li ul li {
+	padding: 0 20px 15px 20px;
+	text-align: right;
+}
+.subsubmenu ul li ul li ul li a {
+	color: #666666;
+	font-size: 15px;
+	text-decoration: underline;
+	
+}
+.subsubmenu ul li ul li ul li a:hover {
+	color: #72273e;
+	text-decoration: none;
+}
+.subsubmenu ul li ul li ul li.current-menu-item a {	
+	color: #72273e;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: right;
+}
+.subsubmenu ul li ul li ul li.current-menu-item a:hover {
+	color: #72273e;
+	text-decoration: none;
+}
+*/
+
+
+.zone {
+	position: absolute;
+	z-index: 1000;
+	display: block;
+	width: 250px;
+	height: 54px;
+	cursor: pointer;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/zoneinfo-bg.png") 0 -10000px no-repeat;
+}
+.zone.zone-1 {
+	left: 254px;
+	top: 129px;	
+}
+.zone.zone-2 {
+	left: 151px;
+	top: 76px;	
+}
+.zone.zone-3 {
+	left: 89px;
+	top: 17px;	
+}
+.zone .bg {
+	display: none;
+	width: 125px;
+	height: 54px;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/zone-bg.png") no-repeat;
+}
+.zonelogo {
+	position: absolute;
+	z-index: 1000;
+	display: block;
+	width: 230px;
+	height: 75px;
+	left: 494px;
+	top: 201px;	
+	cursor: pointer;
+}
+.zoneinfo {
+	position: absolute;
+	z-index: 1000;
+	display: none;
+	left: 411px;
+	top: 9px; 
+	width: 284px;
+	height: 129px;
+}
+.zoneinfo.zone-1 {
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/zoneinfo-bg.png") 0 0 no-repeat;
+}
+.zoneinfo.zone-2 {
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/zoneinfo-bg.png") 0 -129px no-repeat;
+}
+.zoneinfo.zone-3 {
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/zoneinfo-bg.png") 0 -258px no-repeat;
+}
+.zoneinfo.zone-logo {
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/zoneinfo-bg.png") 0 -387px no-repeat;
+}
+
+.rollover {
+	position: absolute;
+	left: 700px;
+	top: 32px;
+}
+.rollover .rollover-item {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	left: 0;	
+	top: 0;
+	width: 275px;
+	height: 230px;
+}
+.rollover .rollover-item.rollover-item-1 {
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/TCT-block.png") 0 0 no-repeat;
+}
+.rollover .rollover-item.rollover-item-2 {
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/TCT-block.png") 0 0 no-repeat;
+}
+.rollover .rollover-item.rollover-item-3 {
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/TCT-block.png") 0 0 no-repeat;
+}
+
+
+.slider {
+	position: relative;
+	width: 990px;
+}
+.slider.slider-home {	
+	height: 280px;
+}
+.slider.slider-interior {
+	height: 111px;
+}
+.slider .slides {
+	position: absolute;
+	z-index: 1;
+	display: block;
+	width: 990px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #547586;
+	list-style-type: none; 
+	list-style-position: outside;
+}
+.slider.slider-home .slides {	
+	height: 280px;
+}
+.slider.slider-interior .slides {	
+	height: 111px;
+}
+.slider .slides .slide {
+	position: absolute;
+	display: block;		
+	width: 990px;	
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.slider.slider-home .slides .slide {
+	height: 280px;
+}
+.slider.slider-interior .slides .slide {
+	height: 111px;
+}
+
+
+.slider-inner {
+	position: relative;
+	width: 990px;
+	height: 99px;
+}
+.slider-inner .slider-inner-slide {
+	position: absolute;			
+	width: 990px;
+	height: 109px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.slider-inner .slider-inner-slide.slider-inner-slide-1 {
+	display: block;
+}
+.slider-inner .slider-inner-slide.slider-inner-slide-2 {
+	display: none;
+}
+.join {
+	position: relative;
+	width: 1010px;
+	height: 50px;
+	margin: 0 0 0 -10px;
+	overflow: hidden;
+	background: #f4f4f4 url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/bg-join.gif") repeat-x;
+	border: 1px solid #d6d6d6;
+}
+/*
+.join .join-subscribe {
+	width: 1010px;
+    height: 50px;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/bg-join-subscribe.png") 32px 20px no-repeat;
+}
+*/
+.join .join-subscribe .join-subscribe-form {
+	margin: 0 0 0 530px;
+}
+.join .join-subscribe .join-subscribe-form-inputs {
+	margin: 0 0 0 20px;
+    padding: 12px 0 0 0;
+}
+.join .join-subscribe .join-subscribe-form-inputs input {
+	display: block;
+	float: left;
+	width: 142px;
+	height: 26px;
+	margin: 0 6px 0 0;
+	padding: 0 3px 0 3px;
+	border: 1px solid #c7d6de;
+	background: #ffffff;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	color: #999999;
+	font-size: 14px;
+}
+.join .join-subscribe .join-subscribe-form-inputs input.error {
+    border: 1px solid #ff6666;
+    background-color: #fee1d8;
+}
+.join .join-subscribe .join-subscribe-form-go {
+	position: absolute;
+	display: block;
+	top: 17px;
+	right: 21px;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.join .join-subscribe .join-subscribe-form-go:hover {
+	text-decoration: none;
+}
+.join .join-subscribe .join-subscribe-thankyou {
+	position: absolute;
+	display: none;
+	left: 600px;
+	top: 17px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.join-shadow {
+	height: 5px;
+	overflow: hidden;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/bg-join-shadow.gif") repeat-x;
+	font-size: 0;
+	line-height: 0;	
+}
+
+.shortlink {
+	position: relative;
+	width: 990px;
+	height: 50px;
+	margin: 0 0 0 0px;
+	overflow: hidden;
+	background: #5a1f31;
+}
+
+.block {
+	/* position: relative; */
+	padding: 8px 8px 8px 8px;
+	/* background: #f8f8f8;
+	border: 1px solid #e2e2e2; */
+}
+.block .block-header-sidebar {
+	padding: 7px 20px 7px 20px;
+	background: #6f97ac;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 1em;
+	text-align: right;
+}
+.block .block-content-sidebar {
+	padding: 15px 15px 15px 15px;
+	text-align: right;
+}
+
+.homepage-block {
+	float: left;
+	width: 295px;
+	margin: 0 0 0 24px;
+}
+.homepage-block:first-child {
+	margin: 0;
+}
+.homepage-block .block {
+	
+}
+.homepage-block .block .block-header-homepage {
+	padding: 7px 20px 7px 15px;
+	background: #6f97ac;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 1em;
+}
+.homepage-block .block .block-content-homepage {
+	padding: 15px 15px 15px 15px;
+	font-size: 12px;
+}
+.homepage-block-news .news-list .list-item {
+    margin-bottom: 15px;
+}
+
+.block-content-sidebar .news-list .list-item {
+    margin-bottom: 15px;
+}
+.block-content-sidebar .news-list .list-item-title {
+    text-decoration: none;
+}
+
+/* =Common= */
+p {
+	margin: 0 0 1.4em 0;
+}
+.navi {
+	clear: both;
+	margin: 40px 0 0 0;
+}
+.navi a {
+	text-decoration: none;
+	font-size: 1em;
+}
+
+
+
+
+.main {
+	padding: 15px 25px 25px 25px;
+}
+.main .content {
+	float: left;
+	width: 600px;
+	padding: 0 0 10px 0;
+	overflow: hidden;
+}
+.main .sidebar {
+	float: right;
+	width: 300px;
+}
+.main .sidebar .block {
+	margin: 0 0 25px 0;
+}
+
+
+/* News */
+.news-list {
+	
+}
+.news-list .list-item {
+		
+}
+.block-content-sidebar .news-list .list-item {
+	text-align: right;
+}
+.news-list .list-item-title {
+	color: #666666;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;	
+}
+.news-list .list-item-title:hover {
+	color: #72273e;
+	text-decoration: underline;	
+}
+.news-list .list-item-posted {	
+	margin: 2px 0 2px 0;
+	color: #6f97ac;
+	font-size: 11px;
+}
+.news-list .list-item-content {	
+	margin: 0;
+}
+.news-list .list-item-content p {
+	margin: 0;	
+}
+.block-content-sidebar .news-list .list-item-content {	
+	font-size: 12px;
+}
+.news-list .list-item-link {
+	margin: 2px 0 20px 0;
+}
+.news-list .list-item-link a {	
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.news-list .list-item-link a:hover {
+	text-decoration: underline;
+}
+.news-list .list-archive {	
+	color: #6f97ac;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.news-list .list-archive:hover {
+	color: #72273e;
+	text-decoration: underline;
+}
+
+
+
+.lab-list {
+	
+}
+.lab-list .list-item {
+	float: left;
+	width: 280px;
+	margin: 0 0 30px 0;
+}
+.lab-list .list-item.list-item-left {
+	margin-right: 39px; 
+}
+.lab-list .list-item .list-item-video {
+	position: relative;
+	display: block;		
+	background: #f8f8f8;
+	border: 1px solid #e2e2e2;
+	text-decoration: none;
+}
+.lab-list .list-item .list-item-video:hover {
+	background: #e1e1e1;
+	border: 1px solid #d1d1d1;
+	text-decoration: none;
+}
+.lab-list .list-item .list-item-video img {
+	width: 269px;
+	height: 202px;
+	margin: 5px 5px 5px 5px;
+	padding: 0;
+}
+.lab-list .list-item .list-item-video .list-item-video-play {
+	position: absolute;
+	width: 54px;
+	height: 37px;
+	top: 85px;
+	left: 110px;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/play.png") no-repeat;
+}
+.lab-list .list-item .list-item-video .list-item-video-posted {
+	margin: 0px 5px 5px 5px;
+	color: #6f97ac;
+	font-size: 11px;	
+}
+.lab-list .list-item .list-item-video .list-item-video-title {
+	margin: 0px 5px 0 5px;
+	height: 80px;
+	color: #666666;
+	font-size: 14px;
+	font-weight: bold;
+}
+.content iframe {
+	margin-bottom: 15px;
+}
+
+.footer {
+	/* position: absolute; */
+	z-index: 2;
+	width: 100%;	
+	left: 0;
+	bottom: 0;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/bg-footer.gif") left bottom repeat-x;
+}
+.footer.footer-home {
+	height: 170px;
+}
+.footer.footer-interior {
+	height: 237px;
+}
+.footer.footer-interior .join-shadow {
+	margin: 0 0 10px 0;
+}
+.footer .footer-container {
+	position: relative;
+	width: 990px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;		
+}
+.footer .footer-container .footer-body {
+	height: 170px;
+	oveflow: hidden;
+}
+.footer .footer-container .footer-body .footer-menu {
+	float: left;
+	width: 130px;
+	margin: 28px 12px 0 12px;
+}
+.footer .footer-container .footer-body .footer-menu ul {
+	display: block;
+	margin: 0; 
+	padding: 0;
+	list-style-type: none; 
+	list-style-position: outside;		
+}
+.footer .footer-container .footer-body .footer-menu ul li {
+	margin: 0 0 4px 0;	
+}
+.footer .footer-container .footer-body .footer-menu ul li a {
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 1em;	
+}
+.footer .footer-container .footer-body .footer-menu ul li a:hover {
+	color: #dbc3cb;
+	text-decoration: underline;	
+}
+.footer .footer-container .footer-body .footer-menu ul li.current-menu-item a {	
+	color: #dbc3cb;
+	text-decoration: underline;
+}
+.footer .footer-container .footer-body .footer-menu ul li.current-menu-item a:hover {	
+	color: #dbc3cb;
+	text-decoration: underline;
+}
+.footer .footer-container .footer-body .footer-logo {
+	float: right;
+	display: block;
+	width: 270px;
+	height: 140px;
+	margin: 16px 10px 0 0;
+	background: url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/footer-logo.png") no-repeat;
+}
+.footer .footer-container .footer-body .footer-copyright {
+	float: left;
+	width: 380px;
+	margin: 27px 0 0 0;
+	color: #999;
+	font-size: 11px;
+    /*
+	text-transform: uppercase;
+	*/
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+.wpcf7 {
+	
+}
+.wpcf7 input[type=text], select, select option, .wpcf7 textarea {
+	width: 400px;
+	padding: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	/* background: #efefef url("/sites/trytonmedical.newshq.businesswire.com/themes/trytonmedical_newshq_businesswire_com_theme/client_files/images/input-bg.gif"); */
+}
+.wpcf7 .wpcf7-not-valid-tip {
+	background: #752b42;
+	border: none;
+	width: 307px;
+	padding: 5px 10px 5px 10px;
+	color: #ffffff;
+	opacity: 0.45;	
+	-moz-opacity:0.45;
+	-khtml-opacity: 0.45;
+}
+.wpcf7 .wpcf7-response-output {
+	padding: 0;
+	border: none;
+}
+.wpcf7 p {
+    margin: 0 0 6px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =Images
+-------------------------------------------------------------- */
+
+.content img {
+	margin: 0;
+	height: auto;
+	width: auto;
+}
+.content .attachment img {
+	max-width: 900px;
+}
+.content .alignleft,
+.content img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+.content .alignright,
+.content img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+	margin-top: 4px;
+}
+.content .aligncenter,
+.content img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content img.alignleft,
+.content img.alignright,
+.content img.aligncenter {
+	margin-bottom: 12px;
+}
+.content .wp-caption {
+	background: #f1f1f1;
+	line-height: 18px;
+	margin-bottom: 20px;
+	padding: 4px;
+	text-align: center;
+}
+.content .wp-caption img {
+	margin: 5px 5px 0;
+}
+.content .wp-caption p.wp-caption-text {
+	color: #888;
+	font-size: 12px;
+	margin: 5px;
+}
+.content .wp-smiley {
+	margin: 0;
+}
+.content .gallery {
+	margin: 0 auto 18px;
+}
+.content .gallery .gallery-item {
+	float: left;
+	margin-top: 0;
+	text-align: center;
+	width: 33%;
+}
+.content .gallery img {
+	border: 2px solid #cfcfcf;
+}
+.content .gallery .gallery-caption {
+	color: #888;
+	font-size: 12px;
+	margin: 0 0 12px;
+}
+.content .gallery dl {
+	margin: 0;
+}
+.content .gallery img {
+	border: 10px solid #f1f1f1;
+}
+.content .gallery br+br {
+	display: none;
+}
+.content .attachment img { /* single attachment images should be centered */
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* =Mobile Safari ( iPad, iPhone and iPod Touch )
+-------------------------------------------------------------- */
+
+pre {
+	-webkit-text-size-adjust: 140%;
+}
+code {
+	-webkit-text-size-adjust: 160%;
+}
+#access,
+.entry-meta,
+.entry-utility,
+.navigation,
+.widget-area {
+	-webkit-text-size-adjust: 120%;
+}
+#site-description {
+	-webkit-text-size-adjust: none;
+}
+
+
+/* =Print Style
+-------------------------------------------------------------- */
+
+@media print {
+	body {
+		background: none !important;
+	}
+	#wrapper {
+		clear: both !important;
+		display: block !important;
+		float: none !important;
+		position: relative !important;
+	}
+	#header {
+		border-bottom: 2pt solid #000;
+		padding-bottom: 18pt;
+	}
+	#colophon {
+		border-top: 2pt solid #000;
+	}
+	#site-title,
+	#site-description {
+		float: none;
+		line-height: 1.4em;
+		margin: 0;
+		padding: 0;
+	}
+	#site-title {
+		font-size: 13pt;
+	}
+	.entry-content {
+		font-size: 14pt;
+		line-height: 1.6em;
+	}
+	.entry-title {
+		font-size: 21pt;
+	}
+	#access,
+	#branding img,
+	#respond,
+	.comment-edit-link,
+	.edit-link,
+	.navigation,
+	.page-link,
+	.widget-area {
+		display: none !important;
+	}
+	#container,
+	#header,
+	#footer {
+		margin: 0;
+		width: 100%;
+	}
+	.content,
+	.one-column .content {
+		margin: 24pt 0 0;
+		width: 100%;
+	}
+	.wp-caption p {
+		font-size: 11pt;
+	}
+	#site-info,
+	#site-generator {
+		float: none;
+		width: auto;
+	}
+	#colophon {
+		width: auto;
+	}
+	img#wpstats {
+		display: none;
+	}
+	#site-generator a {
+		margin: 0;
+		padding: 0;
+	}
+	#entry-author-info {
+		border: 1px solid #e7e7e7;
+	}
+	#main {
+		display: inline;
+	}
+	.home .sticky {
+		border: none;
+	}

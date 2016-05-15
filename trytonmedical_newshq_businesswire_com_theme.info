@@ -1,0 +1,68 @@
+name = trytonmedical.newshq.businesswire.com subtheme
+
+description = Use this as a starting point for a new subtheme.
+
+base theme = hq_base
+
+core = 6.x
+
+engine = phptemplate
+
+;stylesheets[all][] = style.css
+
+;stylesheets[all][] = client_files/css/style.css
+stylesheets[all][] = client_files/css/skin.css
+stylesheets[all][] = client_files/css/slider.css
+stylesheets[all][] = client_files/css/jquery_002.css
+stylesheets[all][] = client_files/css/jquery_003.css
+stylesheets[all][] = client_files/css/jquery_004.css
+stylesheets[all][] = client_files/css/jquery_005.css
+stylesheets[all][] = client_files/css/jquery.css
+stylesheets[all][] = client_files/css/style_002.css
+stylesheets[all][] = client_files/css/styles.css
+
+
+stylesheets[all][] = tryton_medical_style.css
+
+
+
+;scripts[] = client_files/js/ga.js
+;scripts[] = client_files/js/jquery.js
+;scripts[] = client_files/js/jquery-migrate.js
+;scripts[] = client_files/js/promoslider.js
+;scripts[] = client_files/js/swfobject.js
+;scripts[] = client_files/js/scripts.js
+;scripts[] = client_files/js/jquery_002.js
+;scripts[] = client_files/js/jquery_003.js
+;scripts[] = client_files/js/jquery_004.js
+;scripts[] = client_files/js/jquery_005.js
+;scripts[] = client_files/js/jquery_006.js
+;scripts[] = client_files/js/jquery_007.js
+;scripts[] = client_files/js/jquery_008.js
+;scripts[] = client_files/js/jquery_009.js
+;scripts[] = client_files/js/jquery_010.js
+;scripts[] = client_files/js/jquery_011.js
+;scripts[] = client_files/js/slidedeck.js
+scripts[] = client_files/js/script.js
+
+
+
+
+
+;scripts[] = client_files/js/bw_custom.js
+
+
+; Toggle these theme features. See http://drupal.org/node/171205
+features[] = logo
+features[] = favicon
+features[] = primary_links
+
+; These last two disabled by redefining the
+; above defaults with only the needed features.
+; features[] = name
+; features[] = search
+; features[] = secondary_links
+; features[] = slogan
+; features[] = mission
+; features[] = node_user_picture
+; features[] = comment_user_picture
